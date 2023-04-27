@@ -7,7 +7,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     <link rel="stylesheet" type ="text/css" href="quiz_game.css">
-    <script src="quiz_game_login.js"></script>
+    <script src="quiz_game_page.js"></script>
 </head>
 <body>
    <h4 id="player1_name"></h4> <span id="player1_score"></span>
@@ -23,7 +23,7 @@
             <span style="font-size: 20px;">Answer: </span><input id="input_check_box" type="text">
             <br>
             <br>
-            <button id="check" class="btn btn-info" style="width: 70px; height: 30px; border-radius: 5px; color: black">Check</button>
+            <button id="check" class="btn btn-info" onclick="check()" style="width: 70px; height: 30px; border-radius: 5px; color: black">Check</button>
         </div>
         <h1 style="font-size: 30px; color: black;">Number 1</h1>
         <input type="text" class="form-control" id="number1" placeholder="Number 1">
